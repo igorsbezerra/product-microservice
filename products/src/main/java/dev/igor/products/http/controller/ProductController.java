@@ -16,7 +16,7 @@ import dev.igor.products.service.ProductService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/")
 public class ProductController {
 
     private final ProductService service;

@@ -15,17 +15,17 @@ services:
       - 5672
       - 15672
 
-  app:
-    container_name: product
-    build:
-      context: .
-    ports:
-      - 8080:8080
-    environment:
-      - MQ_HOST=rabbitmq
-      - MQ_USERNAME=igor
-      - MQ_PASSWORD=igor
-    expose:
-      - 8080
-    depends_on:
-      - rabbitmq
+  # app:
+  #   container_name: product
+  #   build:
+  #     context: .
+  #   ports:
+  #     - 8080:8080
+  #   environment:
+  #     - MQ_HOST=rabbitmq
+  #     - MQ_USERNAME=igor
+  #     - MQ_PASSWORD=igor
+  #   expose:
+  #     - 8080
+  #   depends_on:
+  #     - rabbitmq
