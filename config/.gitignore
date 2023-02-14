@@ -31,5 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
-data/products.mv.db
 .DS_Store
